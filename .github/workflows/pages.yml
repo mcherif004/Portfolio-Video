@@ -1,3 +1,6 @@
+# Requiere: Repo → Settings → Pages → Source: "GitHub Actions"
+# Si falla, usa Source: "Deploy from a branch" → main → / (root)
+
 name: Desplegar GitHub Pages
 
 on:
@@ -12,7 +15,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -21,9 +24,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir sitio estático
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - id: deployment
+
+      - name: Publicar
+        id: deployment
         uses: actions/deploy-pages@v4
