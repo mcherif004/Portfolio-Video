@@ -621,6 +621,64 @@ section {
     z-index: 1;
 }
 
+/* Miniatura hasta cargar el iframe (initDeferredYouTubeEmbeds en index.js) */
+.embed-yt-deferred__thumb {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    z-index: 0;
+}
+
+.embed-yt-deferred__play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 46px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.78);
+    border-radius: 12px;
+    pointer-events: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+.embed-yt-deferred__play::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.embed-yt-deferred {
+    cursor: pointer;
+}
+
+.embed-yt-deferred:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .dark-mode .embed-wrap {
     border-bottom-color: var(--color-border);
     box-shadow: inset 0 0 0 1px rgba(255, 77, 77, 0.12);

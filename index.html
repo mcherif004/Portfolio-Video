@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; img-src 'self' data: https://i.ytimg.com https://unavatar.io https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self'; frame-src https://www.youtube-nocookie.com; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
     <title>Mostafa Cherif | Edición YouTube, Shorts y miniaturas orientada a retención</title>
     <meta name="description" content="Edición profesional para YouTube, vídeo vertical (Shorts, Reels, TikTok) y miniaturas. Enfoque en retención, ritmo narrativo y crecimiento del canal.">
     <meta name="author" content="Mostafa Cherif">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#007bff">
+    <link rel="canonical" href="https://mcherif004.github.io/Portfolio-Video/">
+    <link rel="alternate" hreflang="es" href="https://mcherif004.github.io/Portfolio-Video/">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://mcherif004.github.io/Portfolio-Video/">
     <meta property="og:title" content="Mostafa Cherif | Edición de alto rendimiento para creadores">
     <meta property="og:description" content="Edición para YouTube, formato vertical y miniaturas, pensada para retención y crecimiento.">
-    <!-- Al publicar: sustituye og:image y twitter:image por URL absoluta (p. ej. https://tudominio.com/img/light.webp) -->
-    <meta property="og:image" content="./img/light.webp">
+    <meta property="og:image" content="https://mcherif004.github.io/Portfolio-Video/img/light.webp">
+    <meta property="og:image:alt" content="Mostafa Cherif - edición de vídeo para YouTube, Shorts y miniaturas">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mostafa Cherif | Edición de alto rendimiento">
     <meta name="twitter:description" content="Edición para YouTube, vertical y miniaturas orientada a retención.">
-    <meta name="twitter:image" content="./img/light.webp">
+    <meta name="twitter:image" content="https://mcherif004.github.io/Portfolio-Video/img/light.webp">
+    <meta name="twitter:image:alt" content="Mostafa Cherif - edición de vídeo para creadores">
+    <link rel="icon" href="./img/light.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="./img/light.webp">
+    <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
+    <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="stylesheet" href="./style/styles.css">
     <script type="application/ld+json">
     {
@@ -24,14 +38,23 @@
             {
                 "@type": "Person",
                 "name": "Mostafa Cherif",
+                "url": "https://mcherif004.github.io/Portfolio-Video/",
                 "jobTitle": "Editor de vídeo",
                 "knowsAbout": ["Edición de vídeo", "YouTube", "Shorts", "Reels", "Miniaturas", "Retención de audiencia"]
             },
             {
                 "@type": "ProfessionalService",
                 "name": "Mostafa Cherif — Edición de alto rendimiento",
+                "url": "https://mcherif004.github.io/Portfolio-Video/",
                 "description": "Servicios de edición de vídeo para creadores: formato horizontal YouTube, vertical y miniaturas, con foco en retención y narrativa.",
                 "areaServed": { "@type": "Country", "name": "España" }
+            },
+            {
+                "@type": "WebSite",
+                "name": "Mostafa Cherif — Edición de alto rendimiento",
+                "url": "https://mcherif004.github.io/Portfolio-Video/",
+                "inLanguage": "es-ES",
+                "description": "Edición profesional para YouTube, vídeo vertical y miniaturas orientada a retención."
             }
         ]
     }
@@ -152,7 +175,7 @@
                     <div class="video-demo-featured card">
                         <div class="card-body video-demo-featured__body">
                             <div class="video-demo-slot video-demo-slot--featured" aria-label="Vídeo demo principal">
-                                <p class="video-demo-placeholder">Video demo (EN DESARROLLO)</p>
+                                <p class="video-demo-placeholder">Demo de trabajo</p>
                             </div>
                         </div>
                     </div>
@@ -162,13 +185,22 @@
                 <p class="section-intro section-intro--wide pricing-after__intro">Muestras verticales reales. Vista limpia en la web y apertura directa en la plataforma original.</p>
                 <div class="work-grid work-grid--vertical">
                     <article class="card work-card">
-                        <div class="embed-wrap embed-wrap--portrait embed-wrap--shorts">
-                            <iframe
-                                src="https://www.youtube.com/embed/Kj0xnYV1M0w?autoplay=0"
-                                title="YouTube Short — ejemplo vertical 1"
+                        <div
+                            class="embed-wrap embed-wrap--portrait embed-wrap--shorts embed-yt-deferred"
+                            data-youtube-id="Kj0xnYV1M0w"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube Short — ejemplo vertical 1">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=Kj0xnYV1M0w">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/Kj0xnYV1M0w/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube Short #01</h4>
@@ -177,13 +209,22 @@
                         </div>
                     </article>
                     <article class="card work-card">
-                        <div class="embed-wrap embed-wrap--portrait embed-wrap--shorts">
-                            <iframe
-                                src="https://www.youtube.com/embed/bD32yrfPmfc?autoplay=0"
-                                title="YouTube Short — ejemplo vertical 2"
+                        <div
+                            class="embed-wrap embed-wrap--portrait embed-wrap--shorts embed-yt-deferred"
+                            data-youtube-id="bD32yrfPmfc"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube Short — ejemplo vertical 2">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=bD32yrfPmfc">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/bD32yrfPmfc/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube Short #02</h4>
@@ -192,13 +233,22 @@
                         </div>
                     </article>
                     <article class="card work-card">
-                        <div class="embed-wrap embed-wrap--portrait embed-wrap--shorts">
-                            <iframe
-                                src="https://www.youtube.com/embed/Q1FzK9Mu54U?autoplay=0"
-                                title="YouTube Short — ejemplo vertical 3"
+                        <div
+                            class="embed-wrap embed-wrap--portrait embed-wrap--shorts embed-yt-deferred"
+                            data-youtube-id="Q1FzK9Mu54U"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube Short — ejemplo vertical 3">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=Q1FzK9Mu54U">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/Q1FzK9Mu54U/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube Short #03</h4>
@@ -252,13 +302,22 @@
                 <h3 id="horizontal-pack" class="section-title section-title--subsection">Horizontal · Ejemplos + Precios</h3>
                 <div class="work-grid">
                     <article class="card work-card">
-                        <div class="embed-wrap">
-                            <iframe
-                                src="https://www.youtube.com/embed/MxRjnojmVCE"
-                                title="YouTube — vídeo horizontal 1"
+                        <div
+                            class="embed-wrap embed-yt-deferred"
+                            data-youtube-id="MxRjnojmVCE"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube — vídeo horizontal 1">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=MxRjnojmVCE">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/MxRjnojmVCE/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube #01</h4>
@@ -266,13 +325,22 @@
                         </div>
                     </article>
                     <article class="card work-card">
-                        <div class="embed-wrap">
-                            <iframe
-                                src="https://www.youtube.com/embed/waM70tLmNZI"
-                                title="YouTube — vídeo horizontal 2"
+                        <div
+                            class="embed-wrap embed-yt-deferred"
+                            data-youtube-id="waM70tLmNZI"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube — vídeo horizontal 2">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=waM70tLmNZI">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/waM70tLmNZI/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube #02</h4>
@@ -280,13 +348,22 @@
                         </div>
                     </article>
                     <article class="card work-card">
-                        <div class="embed-wrap">
-                            <iframe
-                                src="https://www.youtube.com/embed/_b9G5WRZNPA"
-                                title="YouTube — vídeo horizontal 3"
+                        <div
+                            class="embed-wrap embed-yt-deferred"
+                            data-youtube-id="_b9G5WRZNPA"
+                            data-youtube-params="autoplay=0&amp;rel=0"
+                            data-youtube-title="YouTube — vídeo horizontal 3">
+                            <a class="visually-hidden embed-yt-deferred__watch" href="https://www.youtube.com/watch?v=_b9G5WRZNPA">Ver vídeo en YouTube</a>
+                            <img
+                                class="embed-yt-deferred__thumb"
+                                src="https://i.ytimg.com/vi/_b9G5WRZNPA/hqdefault.jpg"
+                                alt=""
+                                width="480"
+                                height="360"
                                 loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                decoding="async"
+                                fetchpriority="low">
+                            <span class="embed-yt-deferred__play" aria-hidden="true"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">YouTube #03</h4>
@@ -486,6 +563,7 @@
         </div>
     </footer>
 
+    <script src="./js/analytics.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>
