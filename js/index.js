@@ -255,6 +255,46 @@
         nodes.forEach((el) => io.observe(el));
     }
 
+    function initDiscordCopy() {
+        const btn = document.getElementById('discord-copy-btn');
+        const idEl = document.getElementById('discord-user-id');
+        const feedback = document.getElementById('discord-copy-feedback');
+        if (!btn || !idEl) return;
+
+        const discordId = (idEl.textContent || '').trim();
+        let resetTimer = null;
+
+        function showFeedback(msg) {
+            if (feedback) {
+                feedback.textContent = msg;
+            }
+            if (resetTimer) window.clearTimeout(resetTimer);
+            resetTimer = window.setTimeout(() => {
+                if (feedback) feedback.textContent = '';
+                resetTimer = null;
+            }, 3500);
+        }
+
+        btn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(discordId);
+                showFeedback('Copiado. Abre Discord y pégalo en «Añadir amigo».');
+            } catch {
+                try {
+                    idEl.focus();
+                    const range = document.createRange();
+                    range.selectNodeContents(idEl);
+                    const sel = window.getSelection();
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                    showFeedback('Selecciona el texto y cópialo con Ctrl+C (o Cmd+C).');
+                } catch {
+                    showFeedback('Copia manualmente: ' + discordId);
+                }
+            }
+        });
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
         const savedTheme = localStorage.getItem('theme');
         if (savedTheme === 'light') applyTheme(false);
@@ -264,6 +304,7 @@
         initHeaderScroll();
         initChannelMarquees();
         initDeferredYouTubeEmbeds();
+        initDiscordCopy();
     });
 
     if (themeToggle) themeToggle.addEventListener('click', toggleTheme);
