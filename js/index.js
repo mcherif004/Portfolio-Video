@@ -1,22 +1,9 @@
 (function () {
-    const body = document.body;
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeIcon = themeToggle && themeToggle.querySelector('.theme-icon');
     const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
     const navMenu = document.getElementById('nav-menu');
     const siteHeader = document.getElementById('site-header');
 
     const SLIDER_MS = 10000;
-
-    function applyTheme(dark) {
-        body.classList.toggle('dark-mode', dark);
-        if (themeIcon) themeIcon.textContent = dark ? '🌙' : '☀️';
-        localStorage.setItem('theme', dark ? 'dark' : 'light');
-    }
-
-    function toggleTheme() {
-        applyTheme(!body.classList.contains('dark-mode'));
-    }
 
     function setMobileMenuExpanded(open) {
         if (!mobileMenuToggle) return;
@@ -170,10 +157,6 @@
             else startAutoplay();
         });
 
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeMobileMenu();
-        });
-
         show(0);
         startAutoplay();
     }
@@ -296,9 +279,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'light') applyTheme(false);
-        else applyTheme(true);
         setMobileMenuExpanded(false);
         initThumbSlider();
         initHeaderScroll();
@@ -307,7 +287,9 @@
         initDiscordCopy();
     });
 
-    if (themeToggle) themeToggle.addEventListener('click', toggleTheme);
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeMobileMenu();
+    });
 
     if (mobileMenuToggle && navMenu) {
         mobileMenuToggle.addEventListener('click', (e) => {

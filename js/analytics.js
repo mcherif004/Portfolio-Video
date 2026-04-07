@@ -1,10 +1,6 @@
 /**
- * Analítica opcional (Google Analytics 4).
- * 1) Crea la propiedad en https://analytics.google.com y copia el ID tipo G-XXXXXXXXXX.
- * 2) Pon el ID abajo. Si lo dejas vacío, no se carga ningún script de terceros.
- *
- * RGPD/LOPD: si tienes visitantes en el EEE, suele hacer falta aviso de cookies y base legal
- * antes de cargar GA; valorar Plausible/Umami o consent mode. Más info en la respuesta al usuario.
+ * GA4 opcional. Deja GA4_MEASUREMENT_ID vacío para no cargar terceros.
+ * Carga diferida tras idle/load para no competir con el primer render.
  */
 (function () {
     var GA4_MEASUREMENT_ID = 'G-4JPXFEWDEL';
@@ -19,13 +15,39 @@
         window.dataLayer.push(arguments);
     }
     window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', GA4_MEASUREMENT_ID, { send_page_view: true });
 
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA4_MEASUREMENT_ID);
-    document.head.appendChild(s);
+    function loadGtag() {
+        gtag('js', new Date());
+        gtag('config', GA4_MEASUREMENT_ID, { send_page_view: true });
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA4_MEASUREMENT_ID);
+        document.head.appendChild(s);
+    }
+
+    function onIdle(fn) {
+        if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(fn, { timeout: 2500 });
+        } else {
+            window.setTimeout(fn, 1);
+        }
+    }
+
+    function scheduleLoad() {
+        if (document.readyState === 'complete') {
+            onIdle(loadGtag);
+        } else {
+            window.addEventListener(
+                'load',
+                function () {
+                    onIdle(loadGtag);
+                },
+                { once: true }
+            );
+        }
+    }
+
+    scheduleLoad();
 
     function track(eventName, params) {
         if (typeof window.gtag !== 'function') return;
