@@ -586,6 +586,26 @@ section {
     line-height: 1.5;
 }
 
+.saas-pricing-cond {
+    margin: 0.5rem 0 0.85rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    text-align: center;
+    color: var(--color-text);
+    opacity: 0.9;
+}
+
+.saas-pricing-cond a {
+    color: var(--color-primary);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.saas-pricing-cond a:hover {
+    opacity: 0.92;
+}
+
 .embed-wrap {
     position: relative;
     width: 100%;
@@ -776,7 +796,8 @@ section {
     overflow: hidden;
 }
 
-.embed-wrap--portrait.embed-wrap--tiktok iframe {
+.embed-wrap--portrait.embed-wrap--tiktok iframe,
+.embed-wrap--portrait.embed-wrap--shorts iframe {
     width: 100%;
     height: 100%;
     left: 0;
@@ -985,6 +1006,43 @@ section {
     min-height: 1.4em;
     margin: 0.85rem 0 0;
     font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.contacto-discord-ejemplo {
+    margin: 1.75rem auto 0;
+    max-width: 36rem;
+    padding: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+.contacto-discord-ejemplo__label {
+    margin: 0 0 0.65rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.contacto-discord-ejemplo__pre {
+    margin: 0 0 0.85rem;
+    padding: 0.85rem 1rem;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    background: rgba(0, 0, 0, 0.28);
+    color: var(--color-text);
+    font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+    max-height: 14rem;
+    overflow: auto;
+}
+
+.contacto-discord-ejemplo__feedback {
+    min-height: 1.35em;
+    margin: 0.65rem 0 0;
+    font-size: 0.9rem;
     font-weight: 600;
     color: var(--color-primary);
 }
@@ -1347,6 +1405,11 @@ footer a:hover {
     line-height: 1.35;
 }
 
+.saas-benefit strong {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
 .saas-cta {
     width: 100%;
     margin-top: auto;
@@ -1596,6 +1659,20 @@ footer a:hover {
     text-align: center;
 }
 
+.condiciones-extras-resumen {
+    max-width: 40rem;
+    margin: -0.35rem auto 1.35rem;
+    padding: 0.65rem 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-text);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 77, 77, 0.35);
+    background: rgba(255, 77, 77, 0.08);
+}
+
 .condiciones-stack {
     display: flex;
     flex-direction: column;
@@ -1616,6 +1693,13 @@ footer a:hover {
 .condiciones-item__body {
     padding-top: 0.85rem;
     padding-bottom: 1.35rem;
+}
+
+.condiciones-preview {
+    margin: 0.35rem 0 0.9rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--color-text-light);
 }
 
 .condiciones-full {
@@ -1784,13 +1868,17 @@ footer a:hover {
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
     gap: 1rem;
     margin-top: 1.5rem;
 }
 
 .footer-box {
+    flex: 1 1 220px;
+    max-width: 310px;
     padding: 1rem;
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.06);
@@ -1812,6 +1900,27 @@ footer a:hover {
     margin-bottom: 0.45rem;
     font-size: 0.86rem;
     line-height: 1.5;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.social-link__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link__label {
+    line-height: 1;
 }
 
 @media (max-width: 900px) {
@@ -1844,7 +1953,11 @@ footer a:hover {
     }
 
     .footer-grid {
-        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .footer-box {
+        max-width: 100%;
     }
 
     .channel-marquee__track {

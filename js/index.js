@@ -24,65 +24,69 @@
             menuClose: 'Cerrar menú de navegación',
             langToggle: { text: 'ES', aria: 'Cambiar idioma a inglés' },
             heroEyebrow: 'Mostafa Cherif · Edición para creadores',
-            heroTitle: 'Edición de vídeo para creadores que quieren publicar mejor y crecer con constancia.',
-            heroSubtitle: 'Edición para <strong>vertical</strong>, <strong>YouTube largo</strong> y <strong>miniaturas</strong> con procesos claros, entregas puntuales y precios por plan.',
-            heroCtas: ['Ver trabajos', 'Solicitar presupuesto'],
+            heroTitle: 'Edición de vídeo para creadores: vertical, YouTube largo y miniaturas.',
+            heroSubtitle: '<strong>Claro en alcance</strong>, entregas puntuales y <strong>precio por plan</strong>.',
+            heroCtas: ['Ver portfolio', 'Contactar'],
             heroTags: ['Ritmo', 'Narrativa', 'Retención'],
-            showreelTitle: 'Video resumen (en preparación)',
-            showreelIntro: 'Estoy creando un video corto para explicar mi proceso y qué hago en cada servicio. Estará disponible pronto.',
-            showreelStatus: 'En proceso de producción',
-            showreelNote: 'Cuando esté listo, se publicará aquí en YouTube (no listado), con reproducción automática al abrir el bloque.',
+            showreelTitle: 'Showreel (pronto)',
+            showreelIntro: 'Vídeo corto del proceso y de cada servicio.',
+            showreelStatus: 'En producción',
+            showreelNote: 'Se publicará en YouTube (no listado) y enlazado aquí.',
             serviciosTitle: 'Servicios',
             serviceTitles: ['Vertical', 'Horizontal (YouTube)', 'Miniaturas'],
             serviceDescs: [
-                'Cortes para publicar a menudo: hook, subtítulos, SFX y ritmo adaptados al feed.',
-                'Episodios 16:9 listos para subir: audio limpio, montaje y retención según el nivel que elijas.',
-                'Imágenes pensadas para CTR y legibilidad en móvil, alineadas con la estética de tu canal.'
+                'Shorts/Reels: hook, subtítulos, SFX y ritmo.',
+                '16:9 listo para subir; Base o Pro retención.',
+                'CTR, legible en móvil, estilo de canal.'
             ],
             serviceLists: [
-                ['Shorts, Reels, TikTok: hook, subtítulos, SFX, ritmo', 'Planes por duración final y minutos de bruto', 'Pack 10 para volumen semanal', 'Entrega lista para subir'],
-                ['16:9, audio limpio, tres niveles de profundidad', 'Montaje base → retención → acabado premium', 'Límites de duración final y bruto por plan', 'Extras de bruto/duración acotados'],
-                ['CTR y legibilidad en feed', 'PNG/JPG; PSD si se acuerda', 'Coherencia con tu marca', 'Suelta, pack 5 o combo con episodio']
+                ['Clip listo; precio en la tarjeta', 'Pack 10 clips o marketing desde', 'Ver condiciones · vídeo vertical'],
+                ['Episodio listo; precio en la tarjeta', 'Base 45 min bruto · Pro 90 min', 'Ver condiciones · vídeo largo'],
+                ['PNG/JPG (PSD si se acuerda)', 'Suelta, pack 5 o combo episodio']
             ],
-            serviceCtas: ['Ver Vertical', 'Ver Horizontal', 'Ver Miniaturas'],
+            serviceCtas: ['Ver packs', 'Ver packs', 'Ver packs'],
             clientesTitle: 'Clientes con los que he trabajado',
-            clientesIntro: 'Colaboraciones recientes. Abre cada perfil para validar estilo y consistencia de entrega.',
+            clientesIntro: 'Canales recientes; enlaces a perfiles.',
             trabajoTitle: 'Trabajos recientes',
-            trabajoIntro: 'Trabajos reales para evaluar calidad de edición, ritmo y acabado.',
+            trabajoIntro: 'Ejemplos publicados; pulsa la miniatura para ver el vídeo.',
             verticalTitle: 'Vertical · Trabajos',
-            verticalIntro: 'Cortes para Shorts, Reels y TikTok con foco en retención. Puedes revisar cada ejemplo publicado.',
+            verticalWorkIntro: 'Shorts / Reels / TikTok.',
+            verticalPricingIntro: 'Qué te entrego, cuánto bruto entra en el precio y cuánto pagas.',
             verticalCards: [
-                { title: 'YouTube Short #01', copy: 'Edición vertical tipo Short; el resultado publicado está en el canal del cliente.' },
-                { title: 'YouTube Short #02', copy: 'Otro corte vertical entregado; ritmo y texto en pantalla pensados para el feed.' },
-                { title: 'YouTube Short #03', copy: 'Ejemplo de vídeo corto listo para publicar.' }
+                { title: 'YouTube Short #01', copy: 'Short vertical; publicado en el canal del cliente.' },
+                { title: 'YouTube Short #02', copy: 'Corte vertical para feed.' },
+                { title: 'YouTube Short #03', copy: 'Ejemplo corto listo para publicar.' }
             ],
-            ytMetricsLink: 'Ver vistas y me gusta en YouTube',
+            ytMetricsLink: 'Ver en YouTube',
             verticalPricingTitle: 'Precios · Vertical',
-            verticalPlanTitles: ['Sistema de Tracción Diaria', 'Plan Crecimiento 10', 'Ritmo Plus Retención'],
-            verticalPlanBadges: ['Pack', 'Recomendado'],
+            verticalPlanTitles: ['Plan Base Vertical', 'Pack Streamers/YouTubers', 'Pack Redes Marketing'],
+            verticalPlanBadges: ['Fijo', 'Desde'],
             verticalPlanBenefits: [
-                ['Hasta 60 s final', 'Subtítulos + SFX base', 'Hasta 10 min bruto', 'Publicación frecuente'],
-                ['10 vídeos (7 €/u)', 'Alcance nivel Esencial', 'Material organizado', 'Fechas cerradas al reservar'],
-                ['Hasta 90 s final', 'B-roll, memes, retención', 'Hasta 20 min bruto', 'Mejor relación calidad/tiempo']
+                ['Te entrego: 1 clip vertical hasta 60 s · 9:16, listo para publicar', 'Bruto incluido: hasta 10 min', 'Precio: 20 € base · sube si amplias alcance'],
+                ['Te entrego: 10 clips hasta 60 s · 9:16', 'Bruto: hasta 10 min por clip', 'Precio: 150 € fijos · sin captions −5 €/clip'],
+                ['Te entrego: clip(s) vertical hasta 60 s · foco anuncio o campaña', 'Bruto: hasta 10 min · +15 €/30 min si pasas', 'Precio: desde 35 €+ según brief']
             ],
-            selectCta: 'Solicitar presupuesto',
+            verticalCondLink: '<a href="#condiciones-vertical">Ver condiciones · vídeo vertical</a>',
+            selectCta: 'Contactar',
             horizontalTitle: 'Horizontal · Trabajos',
-            horizontalIntro: 'Episodios 16:9 listos para publicar en YouTube con edición limpia y narrativa clara.',
+            horizontalIntro: 'Episodios 16:9 en YouTube.',
             horizontalCards: [
-                { title: 'YouTube #01', copy: 'Episodio en formato largo; montaje y audio listos para el canal del cliente.' },
-                { title: 'YouTube #02', copy: 'Otro trabajo de edición para vídeo horizontal; mismo criterio de entrega profesional.' },
-                { title: 'YouTube #03', copy: 'Tercer ejemplo de episodio largo; puedes comprobar el resultado en el enlace.' }
+                { title: 'YouTube #01', copy: 'Largo 16:9; montaje y audio listos.' },
+                { title: 'YouTube #02', copy: 'Otro episodio horizontal.' },
+                { title: 'YouTube #03', copy: 'Tercer ejemplo largo.' }
             ],
             horizontalPricingTitle: 'Precios · Horizontal (YouTube)',
-            horizontalPlanTitles: ['Nivel 01 Estructura', 'Nivel 02 Retención', 'Nivel 03 Autoridad'],
+            horizontalPlanTitles: ['Plan Base 10–15 min', 'Plan Pro Retención 10–15 min'],
+            horizontalProBadge: 'Recomendado',
             horizontalPlanBenefits: [
-                ['10–15 min final', 'Montaje + audio limpio', 'Hasta 30 min bruto', 'Base sin motion pesado'],
-                ['20–25 min final', 'Ritmo + apoyos en pantalla', 'Hasta 60 min bruto', 'Enfoque retención'],
-                ['30–35 min final', 'Narrativa + acabado premium', 'Hasta 120 min bruto', 'Máximo del plan']
+                ['Te entrego: episodio 10–15 min · 16:9, listo para YouTube', 'Bruto incluido: hasta 45 min revisados', 'Si te pasas del cupo: +15 € / 30 min'],
+                ['Te entrego: episodio 10–15 min · 16:9, más retención en pantalla', 'Bruto incluido: hasta 90 min revisados', 'Si te pasas del cupo: +15 € / 30 min']
             ],
-            extrasNote: 'Extras: +15 € / 30 min bruto · +10 € / 2 min sobre límite horizontal.',
+            horizontalCondLink: '<a href="#condiciones-horizontal">Ver condiciones · vídeo largo (YouTube)</a>',
+            condicionesExtrasResumen:
+                'Bruto fuera de cupo: +15 €/30 min. Horizontal: minuto final >15 min: +5 €/min. Revisiones: aparte.',
             miniTitle: 'Miniaturas · Trabajos',
-            miniIntro: 'Diseño orientado a CTR, legibilidad y coherencia visual para tu canal.',
+            miniIntro: 'Miniaturas: CTR y legibilidad.',
             miniPricingTitle: 'Precios · Miniaturas',
             miniPlanTitles: ['Miniatura suelta', 'Pack 5 miniaturas'],
             miniPlanBenefits: [
@@ -91,31 +95,74 @@
             ],
             miniNote: 'Combo episodio + miniatura: presupuesto cerrado según alcance.',
             contactoTitle: 'Contacto',
-            contactoLead: 'Presupuesto en 24 h: <strong>formato</strong>, <strong>minutos de bruto</strong>, <strong>objetivo</strong>. Opcional: enlace al canal.',
+            contactoLead:
+                '<strong>Respuesta en 24 h</strong> (orientativa, días laborables): envía <strong>formato</strong>, <strong>bruto</strong>, <strong>objetivo</strong> y enlace al material. <strong>Discord</strong>. Flujo: mensaje → precio → reserva → edición → entrega.',
+            discordEjemploLabel: 'Ejemplo de mensaje (cópialo y rellena los campos):',
+            discordExampleMsg: `Hola,
+
+Canal: [enlace o @]
+Servicio: vertical / YouTube largo / miniaturas
+Bruto aprox: [X] min · final deseado: [Y] min
+Objetivo: [una frase]
+Material: [enlace Drive o carpeta]
+¿Fecha objetivo aprox.?
+
+Gracias.`,
+            discordCopyMsgBtn: 'Copiar plantilla',
+            discordCopyMsgBtnAria: 'Copiar plantilla de mensaje para Discord al portapapeles',
             contactoCupo: 'Cupo de clientes mensual: 2/5',
             contactoLabel: 'Discord: copia el usuario → Añadir amigo en la app.',
             contactoCopyBtn: 'Copiar usuario',
             condicionesTitle: 'Condiciones',
-            condicionesLead: 'Condiciones clave para trabajar con tiempos claros, alcance definido y pagos sin sorpresas.',
-            condicionesSummaries: ['Primer mensaje y presupuesto', 'Material: envío y organización', 'Vertical (Shorts, Reels, TikTok)', 'Horizontal (YouTube largo)', 'Miniaturas', 'Pagos, plazos y ajustes', 'Extras, urgencias y cancelaciones'],
+            condicionesLead: 'Alcance, plazos y pagos acordados por escrito antes de editar.',
+            condicionesSummaries: ['1) Primer mensaje y presupuesto · Ver más', '2) Material y organización · Ver más', '3) Planes verticales · Ver más', '4) Horizontal (YouTube largo) · Ver más', '5) Tiempos de entrega · Ver más', '6) Pagos y revisiones · Ver más', '7) Extras y cancelación · Ver más'],
             condicionesItems: [
-                ['Datos mínimos: formato, objetivo, bruto y fecha.', 'Precio y alcance cerrados antes de reservar.', 'Referencias opcionales para ajustar estilo.'],
-                ['Entrega todo en una sola carpeta o drive.', 'Material ordenado para evitar retrasos.', 'Si la calidad limita el resultado, se avisa antes de producir.'],
-                ['Planes por nivel de edición y duración.', 'Pack 10 solo con material organizado y calendario cerrado.', 'Re-montaje total o cambio de concepto se cotiza aparte.'],
-                ['Niveles 01/02/03 según profundidad de edición.', 'Ajustes sobre el enfoque acordado.', 'Material muy desordenado puede requerir extra de organización.'],
-                ['Brief con idea, referencias y estilo visual.', 'Entrega en PNG/JPG; PSD bajo acuerdo.', 'Rediseño completo cuenta como nuevo encargo.'],
-                ['Reserva: 50%; saldo al cierre de entrega.', 'Plazo corre desde briefing y material completos.', 'Revisiones razonables incluidas según plan.'],
-                ['Extras: +15 € / 30 min bruto y +10 € / 2 min final horizontal.', 'Pago: Bizum, Revolut, PayPal o Binance (USDT).', 'Urgencias extremas y trabajos fuera de alcance se cotizan aparte.']
+                [
+                    'Formato, minutos finales y de bruto, objetivo, fecha y enlace al material. Discord, un hilo por proyecto.',
+                    'Te respondo con precio y lo que entra en ese precio; lo que falte se dice antes de reservar.',
+                    'Flujo: mensaje → presupuesto → reserva → edición → entrega.'
+                ],
+                [
+                    'Un solo enlace (carpeta/drive); archivos ordenados. Música: tuya con licencia o stock; indícalo al pedir.',
+                    'Si el material no basta para lo acordado, se avisa antes de editar (ajuste o suplemento).'
+                ],
+                [
+                    'Base 20 €: 1 clip hasta 60 s listo para publicar; hasta 10 min bruto. Esencial: hook, subtítulos, ritmo y edición limpia. Más alcance = más precio.',
+                    'Pack 150 €: 10 clips misma regla; captions en picos clave; −5 €/clip sin captions.',
+                    'Marketing desde 35 €+: clips para campaña/CTA; bruto extra +15 €/30 min si pasas de 10 min por pieza.'
+                ],
+                [
+                    'Base 60 €: 10–15 min final · 16:9; hasta 45 min bruto. Edición y audio listos; sin motion pesado.',
+                    'Pro 90 €: lo mismo + retención en pantalla; hasta 90 min bruto; gráficos ligeros (no pack motion completo salvo acuerdo).',
+                    'Extras: +15 €/30 min bruto fuera de cupo; +5 €/min si el final pasa de 15 min; combo Base + miniatura 65 €; revisiones aparte.'
+                ],
+                [
+                    'La cola arranca con el 50 % y el material completo. Cambios de brief o archivos faltantes = nueva fecha.',
+                    'La fecha se confirma al cerrar el pedido.'
+                ],
+                ['50 % al reservar; saldo al cierre acordado.', 'Las revisiones no van en el precio del plan; lo que no esté cerrado se cotiza aparte.'],
+                [
+                    'Bruto fuera de cupo: +15 €/30 min (vertical por pieza; horizontal Base >45 min, Pro >90 min). Final horizontal >15 min: +5 €/min.',
+                    'Revisiones: desde 10 € (puntual) / desde 20 € (varias).',
+                    'Pago: Bizum, Revolut, PayPal, Binance (USDT). Urgencias fuertes o re-montaje total: siempre cotizado antes.',
+                    'Cancelación: el anticipo cubre hueco y lo ya hecho; el resto según lo entregado o lo acordado.'
+                ]
             ],
             footerScarcity: '<strong>Cupo limitado</strong> · pocos proyectos, más foco por entrega.',
-            footerTitles: ['Navegación', 'Trabajo y precios', 'Contacto rápido'],
+            footerTitles: ['Navegación', 'Trabajo y precios', 'Contacto rápido', 'Redes'],
             footerCol1: ['Servicios', 'Clientes', 'Vertical', 'Horizontal', 'Miniaturas'],
-            footerCol2: ['Precio por plan; extras fuera de límites.', 'Vertical · Horizontal', 'Ajustes según alcance acordado.', 'Condiciones'],
+            footerCol2: ['Precio por plan; extras fuera de límites.', 'Vertical · Horizontal', 'Revisiones y cambios se cotizan aparte.'],
             footerCol3: ['Formato · duración · objetivo', 'Enlace al material', 'Ir a contacto'],
+            footerCol4: ['TikTok', 'Instagram', 'YouTube'],
             copyFeedback: {
                 success: 'Copiado. Abre Discord y pégalo en «Añadir amigo».',
                 fallback: 'Selecciona el texto y cópialo con Ctrl+C (o Cmd+C).',
                 manual: 'Copia manualmente: '
+            },
+            copyMsgFeedback: {
+                success: 'Plantilla copiada. Pégala en Discord y sustituye lo que va entre corchetes.',
+                fallback: 'Selecciona el texto del recuadro y cópialo con Ctrl+C (o Cmd+C).',
+                manual: 'Copia manualmente la plantilla del recuadro.'
             },
             embedLoadLabel: 'Cargar vídeo: ',
             navAnchorAria: 'Ir a sección'
@@ -134,65 +181,69 @@
             menuClose: 'Close navigation menu',
             langToggle: { text: 'EN', aria: 'Switch language to Spanish' },
             heroEyebrow: 'Mostafa Cherif · Editing for creators',
-            heroTitle: 'Video editing for creators who want better publishing quality and steady growth.',
-            heroSubtitle: 'Editing for <strong>vertical</strong>, <strong>long-form YouTube</strong>, and <strong>thumbnails</strong> with clear process, reliable delivery, and plan-based pricing.',
-            heroCtas: ['View work', 'Request a quote'],
+            heroTitle: 'Video editing for creators: vertical, long-form YouTube, and thumbnails.',
+            heroSubtitle: '<strong>Clear scope</strong>, reliable delivery, <strong>plan pricing</strong>.',
+            heroCtas: ['View portfolio', 'Contact'],
             heroTags: ['Pacing', 'Story', 'Retention'],
-            showreelTitle: 'Explainer video (coming soon)',
-            showreelIntro: 'I am creating a short video explaining my process and what I deliver in each service. It will be available soon.',
-            showreelStatus: 'Currently in production',
-            showreelNote: 'Once ready, it will be published here on YouTube (unlisted) with autoplay when opening this block.',
+            showreelTitle: 'Showreel (soon)',
+            showreelIntro: 'Short video on process and each service.',
+            showreelStatus: 'In production',
+            showreelNote: 'Will be published on YouTube (unlisted) and linked here.',
             serviciosTitle: 'Services',
             serviceTitles: ['Vertical', 'Horizontal (YouTube)', 'Thumbnails'],
             serviceDescs: [
-                'High-frequency short edits: hook, subtitles, SFX, and pace adapted to the feed.',
-                '16:9 episodes ready to upload: clean audio, solid structure, and retention by level.',
-                'Thumbnail design focused on CTR and mobile readability, aligned with your channel style.'
+                'Shorts/Reels: hook, subtitles, SFX, and pace.',
+                '16:9 ready to upload; Base or Pro retention.',
+                'CTR, mobile-readable, on-brand.'
             ],
             serviceLists: [
-                ['Shorts, Reels, TikTok: hook, subtitles, SFX, pacing', 'Plans based on final length and raw footage minutes', '10-video pack for weekly volume', 'Delivery ready to publish'],
-                ['16:9 workflow with clean audio and three depth levels', 'Base edit → retention-focused → premium finish', 'Final length and raw-footage limits per plan', 'Extra raw minutes / runtime charged clearly'],
-                ['CTR and feed readability', 'PNG/JPG delivery; PSD if agreed', 'Consistent with your channel branding', 'Single, 5-pack, or episode combo']
+                ['Ready clip; price on the card', '10-clip pack or marketing from', 'View terms · vertical video'],
+                ['Ready episode; price on the card', 'Base 45 min raw · Pro 90 min', 'View terms · long-form'],
+                ['PNG/JPG (PSD if agreed)', 'Single, 5-pack, or episode combo']
             ],
-            serviceCtas: ['View Vertical', 'View Horizontal', 'View Thumbnails'],
+            serviceCtas: ['View plans', 'View plans', 'View plans'],
             clientesTitle: 'Creators I have worked with',
-            clientesIntro: 'Recent collaborations. Open each profile to validate style and delivery consistency.',
+            clientesIntro: 'Recent channels; profile links.',
             trabajoTitle: 'Recent work',
-            trabajoIntro: 'Real work samples to evaluate editing quality, pacing, and finish.',
+            trabajoIntro: 'Published samples; tap the thumbnail to play.',
             verticalTitle: 'Vertical · Work',
-            verticalIntro: 'Short edits for Shorts, Reels, and TikTok focused on retention. Each example links to a published result.',
+            verticalWorkIntro: 'Shorts / Reels / TikTok.',
+            verticalPricingIntro: 'What you receive, raw included in the price, and what you pay.',
             verticalCards: [
-                { title: 'YouTube Short #01', copy: 'Vertical short edit; published result available on the client channel.' },
-                { title: 'YouTube Short #02', copy: 'Another delivered short edit, paced and formatted for feed retention.' },
-                { title: 'YouTube Short #03', copy: 'Example of a short-form video ready to publish.' }
+                { title: 'YouTube Short #01', copy: 'Vertical short; live on the client channel.' },
+                { title: 'YouTube Short #02', copy: 'Vertical cut for the feed.' },
+                { title: 'YouTube Short #03', copy: 'Short sample ready to post.' }
             ],
-            ytMetricsLink: 'View public views and likes on YouTube',
+            ytMetricsLink: 'Watch on YouTube',
             verticalPricingTitle: 'Pricing · Vertical',
-            verticalPlanTitles: ['Daily Traction System', 'Growth Plan 10', 'Retention Plus Flow'],
-            verticalPlanBadges: ['Pack', 'Recommended'],
+            verticalPlanTitles: ['Vertical Base Plan', 'Streamers/YouTubers Pack', 'Marketing Social Pack'],
+            verticalPlanBadges: ['Fixed', 'From'],
             verticalPlanBenefits: [
-                ['Up to 60s final runtime', 'Subtitles + base SFX', 'Up to 10 min raw footage', 'Built for frequent posting'],
-                ['10 videos (7 €/each)', 'Essential-level scope', 'Organized source material', 'Dates locked on booking'],
-                ['Up to 90s final runtime', 'B-roll, memes, retention support', 'Up to 20 min raw footage', 'Best quality/time balance']
+                ['You get: 1 vertical clip up to 60s · 9:16, ready to publish', 'Raw included: up to 10 min', 'Price: €20 base · increases if scope grows'],
+                ['You get: 10 clips up to 60s · 9:16', 'Raw: up to 10 min per clip', 'Price: €150 fixed · no captions −€5/clip'],
+                ['You get: vertical clip(s) up to 60s · ad/campaign focus', 'Raw: up to 10 min · +€15/30 min over cap', 'Price: from €35+ per brief']
             ],
-            selectCta: 'Request quote',
+            verticalCondLink: '<a href="#condiciones-vertical">View terms · vertical video</a>',
+            selectCta: 'Contact',
             horizontalTitle: 'Horizontal · Work',
-            horizontalIntro: '16:9 episodes ready for YouTube publishing with clean editing and clear narrative.',
+            horizontalIntro: '16:9 episodes on YouTube.',
             horizontalCards: [
-                { title: 'YouTube #01', copy: 'Long-form episode edit with clean structure and audio, ready for upload.' },
-                { title: 'YouTube #02', copy: 'Another long-form delivery with the same professional editing standard.' },
-                { title: 'YouTube #03', copy: 'Third long-form sample; you can check the final result on YouTube.' }
+                { title: 'YouTube #01', copy: 'Long-form 16:9; edit and audio ready.' },
+                { title: 'YouTube #02', copy: 'Another long-form episode.' },
+                { title: 'YouTube #03', copy: 'Third long-form sample.' }
             ],
             horizontalPricingTitle: 'Pricing · Horizontal (YouTube)',
-            horizontalPlanTitles: ['Level 01 Structure', 'Level 02 Retention', 'Level 03 Authority'],
+            horizontalPlanTitles: ['Base Plan 10–15 min', 'Pro Retention Plan 10–15 min'],
+            horizontalProBadge: 'Recommended',
             horizontalPlanBenefits: [
-                ['10–15 min final runtime', 'Clean edit + clean audio', 'Up to 30 min raw footage', 'Core edit without heavy motion'],
-                ['20–25 min final runtime', 'Pacing + on-screen supports', 'Up to 60 min raw footage', 'Retention-focused edit'],
-                ['30–35 min final runtime', 'Narrative + premium finish', 'Up to 120 min raw footage', 'Highest scope level']
+                ['You get: 10–15 min · 16:9 episode, ready for YouTube', 'Raw included: up to 45 min reviewed', 'Over cap: +€15 / 30 min'],
+                ['You get: 10–15 min · 16:9 with stronger on-screen retention', 'Raw included: up to 90 min reviewed', 'Over cap: +€15 / 30 min']
             ],
-            extrasNote: 'Extras: +15 € / 30 min raw footage · +10 € / 2 min over horizontal limit.',
+            horizontalCondLink: '<a href="#condiciones-horizontal">View terms · long-form (YouTube)</a>',
+            condicionesExtrasResumen:
+                'Raw over cap: +€15/30 min. Horizontal: final over 15 min: +€5/min. Revisions: quoted separately.',
             miniTitle: 'Thumbnails · Work',
-            miniIntro: 'CTR-focused design with strong readability and consistent channel branding.',
+            miniIntro: 'Thumbnails: CTR and readability.',
             miniPricingTitle: 'Pricing · Thumbnails',
             miniPlanTitles: ['Single thumbnail', '5-thumbnail pack'],
             miniPlanBenefits: [
@@ -201,31 +252,74 @@
             ],
             miniNote: 'Episode + thumbnail combo: fixed quote based on scope.',
             contactoTitle: 'Contact',
-            contactoLead: 'Quote in 24h: <strong>format</strong>, <strong>raw footage minutes</strong>, <strong>video goal</strong>. Optional: channel link.',
+            contactoLead:
+                '<strong>Reply within 24h</strong> (indicative, business days): send <strong>format</strong>, <strong>raw</strong>, <strong>goal</strong>, and asset link. <strong>Discord</strong>. Flow: message → quote → booking → edit → delivery.',
+            discordEjemploLabel: 'Example message (copy and fill in the brackets):',
+            discordExampleMsg: `Hi,
+
+Channel: [link or @]
+Service: vertical / long-form YouTube / thumbnails
+Approx raw: [X] min · target final: [Y] min
+Goal: [one sentence]
+Assets: [Drive link or folder]
+Rough deadline: [date/week]
+
+Thanks.`,
+            discordCopyMsgBtn: 'Copy template',
+            discordCopyMsgBtnAria: 'Copy Discord message template to clipboard',
             contactoCupo: 'Monthly client slots: 2/5',
             contactoLabel: 'Discord: copy the username → Add Friend in the app.',
             contactoCopyBtn: 'Copy username',
             condicionesTitle: 'Terms',
-            condicionesLead: 'Core terms for clear scope, predictable delivery, and simple payments.',
-            condicionesSummaries: ['First message and quote', 'Material: delivery and organization', 'Vertical (Shorts, Reels, TikTok)', 'Horizontal (Long-form YouTube)', 'Thumbnails', 'Payments, turnaround and revisions', 'Extras, urgency and cancellations'],
+            condicionesLead: 'Scope, timelines, and payments agreed in writing before editing.',
+            condicionesSummaries: ['1) First message and quote · Expand', '2) Materials and organization · Expand', '3) Vertical plans · Expand', '4) Horizontal (Long-form YouTube) · Expand', '5) Delivery times · Expand', '6) Payments and revisions · Expand', '7) Extras and cancellation · Expand'],
             condicionesItems: [
-                ['Minimum input: format, objective, raw footage, deadline.', 'Final scope and quote are confirmed before booking.', 'References are optional.'],
-                ['Share all assets in a single drive/folder.', 'Keep source files organized to protect delivery time.', 'If source quality limits output, this is flagged before production.'],
-                ['Plans are defined by editing depth and runtime.', '10-video pack requires organized assets and fixed schedule.', 'Full rebuild or concept shift is quoted separately.'],
-                ['Levels 01/02/03 by editing depth.', 'Revisions apply to agreed direction.', 'Highly disorganized source can require an organization fee.'],
-                ['Brief includes concept, references, and visual style.', 'PNG/JPG delivery; PSD on request.', 'Full redesign is treated as a new order.'],
-                ['Booking: 50% upfront; remainder on final delivery.', 'Timeline starts after full brief + assets.', 'Reasonable revisions are included by plan scope.'],
-                ['Extras: +15 € / 30 min raw footage, +10 € / 2 extra final minutes (horizontal).', 'Payments: Bizum, Revolut, PayPal, Binance (USDT).', 'Extreme urgency and out-of-scope requests are quoted separately.']
+                [
+                    'Format, final and raw minutes, goal, deadline, asset link. Discord, one thread per project.',
+                    'You get a quote and what it covers; gaps are called out before booking.',
+                    'Flow: message → quote → booking → edit → delivery.'
+                ],
+                [
+                    'One drive/folder link; organized files. Music: yours (licensed) or stock—state it in the request.',
+                    'If assets are not enough for the agreed scope, you are told before editing (adjustment or surcharge).'
+                ],
+                [
+                    'Base €20: one clip up to 60s ready to publish; up to 10 min raw. Essential: hook, subtitles, pacing, clean edit. More scope = higher price.',
+                    'Pack €150: 10 clips same rules; captions on key beats; −€5/clip without captions.',
+                    'Marketing from €35+: campaign/CTA clips; extra raw +€15/30 min beyond 10 min per piece.'
+                ],
+                [
+                    'Base €60: 10–15 min final · 16:9; up to 45 min raw. Edit and audio ready; no heavy motion.',
+                    'Pro €90: same + on-screen retention; up to 90 min raw; light graphics (not a full motion pack unless agreed).',
+                    'Extras: +€15/30 min raw over cap; +€5/min if final is over 15 min; €65 Base + thumbnail combo; revisions quoted separately.'
+                ],
+                [
+                    'Queue starts with 50% and complete assets. Brief changes or missing files = new date.',
+                    'Deadline is confirmed when the order is closed.'
+                ],
+                ['50% to book; balance at agreed closing.', 'Revisions are not in the plan price; anything not locked is quoted separately.'],
+                [
+                    'Raw over cap: +€15/30 min (vertical per piece; horizontal Base >45 min, Pro >90 min). Horizontal final over 15 min: +€5/min.',
+                    'Revisions: from €10 (small) / from €20 (multiple).',
+                    'Payments: Bizum, Revolut, PayPal, Binance (USDT). Rush or full remount: always quoted first.',
+                    'Cancellation: deposit covers slot and work done; remainder per delivery or agreement.'
+                ]
             ],
             footerScarcity: '<strong>Limited slots</strong> · fewer projects, more focus per delivery.',
-            footerTitles: ['Navigation', 'Work and pricing', 'Quick contact'],
+            footerTitles: ['Navigation', 'Work and pricing', 'Quick contact', 'Socials'],
             footerCol1: ['Services', 'Clients', 'Vertical', 'Horizontal', 'Thumbnails'],
-            footerCol2: ['Plan-based pricing; extras outside limits.', 'Vertical · Horizontal', 'Revisions follow agreed scope.', 'Terms'],
+            footerCol2: ['Plan-based pricing; extras outside limits.', 'Vertical · Horizontal', 'Revisions and changes are quoted separately.'],
             footerCol3: ['Format · duration · objective', 'Material link', 'Go to contact'],
+            footerCol4: ['TikTok', 'Instagram', 'YouTube'],
             copyFeedback: {
                 success: 'Copied. Open Discord and paste it in "Add Friend".',
                 fallback: 'Select the text and copy it with Ctrl+C (or Cmd+C).',
                 manual: 'Copy manually: '
+            },
+            copyMsgFeedback: {
+                success: 'Template copied. Paste it in Discord and replace the bracketed parts.',
+                fallback: 'Select the box text and copy with Ctrl+C (or Cmd+C).',
+                manual: 'Copy the template from the box manually.'
             },
             embedLoadLabel: 'Load video: ',
             navAnchorAria: 'Go to section'
@@ -337,7 +431,8 @@
         setText('#prueba-title', locale.trabajoTitle);
         setText('#prueba .container > .section-intro', locale.trabajoIntro);
         setText('#vertical-pack', locale.verticalTitle);
-        setText('.pricing-after__intro', locale.verticalIntro);
+        setText('#intro-vertical-work', locale.verticalWorkIntro);
+        setHtml('#intro-vertical-pricing', locale.verticalPricingIntro);
         const verticalCards = document.querySelectorAll('.work-grid--vertical .work-card');
         verticalCards.forEach((card, i) => {
             const data = locale.verticalCards[i];
@@ -351,7 +446,7 @@
         });
 
         setText('#planes', locale.verticalPricingTitle);
-        const verticalPlans = document.querySelectorAll('#planes + .saas-pricing-grid .saas-plan');
+        const verticalPlans = document.querySelectorAll('#pricing-vertical .saas-plan');
         verticalPlans.forEach((plan, i) => {
             const h4 = plan.querySelector('h4');
             if (h4) {
@@ -388,13 +483,15 @@
         });
 
         setText('#planes-horizontal', locale.horizontalPricingTitle);
-        const horizontalPlans = document.querySelectorAll('#planes-horizontal + .saas-pricing-grid .saas-plan');
+        const horizontalPlans = document.querySelectorAll('#pricing-horizontal .saas-plan');
         horizontalPlans.forEach((plan, i) => {
             const h4 = plan.querySelector('h4');
             if (h4) {
                 const badge = h4.querySelector('span');
                 h4.childNodes[0].nodeValue = `${locale.horizontalPlanTitles[i]} `;
-                if (badge) badge.textContent = locale.verticalPlanBadges[1];
+                if (badge && badge.classList.contains('badge-recommended')) {
+                    badge.textContent = locale.horizontalProBadge;
+                }
             }
             const benefits = plan.querySelectorAll('.saas-benefit');
             benefits.forEach((b, j) => {
@@ -404,13 +501,14 @@
             const cta = plan.querySelector('.saas-cta');
             if (cta) cta.textContent = locale.selectCta;
         });
-        setText('.saas-extras-note', locale.extrasNote);
+        setHtml('#saas-cond-vertical', locale.verticalCondLink);
+        setHtml('#saas-cond-horizontal', locale.horizontalCondLink);
 
         setText('#miniaturas-pack', locale.miniTitle);
         const miniIntro = document.querySelector('#miniaturas-pack + .section-intro');
         if (miniIntro) miniIntro.textContent = locale.miniIntro;
         setText('#planes-miniaturas', locale.miniPricingTitle);
-        const miniPlans = document.querySelectorAll('#planes-miniaturas + .saas-pricing-grid .saas-plan');
+        const miniPlans = document.querySelectorAll('#pricing-mini .saas-plan');
         miniPlans.forEach((plan, i) => {
             const title = plan.querySelector('h4');
             if (title) title.textContent = locale.miniPlanTitles[i] || title.textContent;
@@ -430,9 +528,16 @@
         if (cupo) cupo.textContent = locale.contactoCupo;
         setText('.contacto-discord-block__label', locale.contactoLabel);
         setText('#discord-copy-btn', locale.contactoCopyBtn);
+        setText('#discord-ejemplo-label', locale.discordEjemploLabel);
+        const discordEjemploPre = document.getElementById('discord-ejemplo-msg');
+        if (discordEjemploPre) discordEjemploPre.textContent = locale.discordExampleMsg;
+        setText('#discord-copy-msg-btn', locale.discordCopyMsgBtn);
+        const discordCopyMsgBtn = document.getElementById('discord-copy-msg-btn');
+        if (discordCopyMsgBtn) discordCopyMsgBtn.setAttribute('aria-label', locale.discordCopyMsgBtnAria);
 
         setText('#condiciones-title', locale.condicionesTitle);
         setText('.condiciones-lead', locale.condicionesLead);
+        setText('#condiciones-extras-resumen', locale.condicionesExtrasResumen);
         setList('.condiciones-item > summary', locale.condicionesSummaries);
         const conditionBlocks = document.querySelectorAll('.condiciones-item .card-list');
         conditionBlocks.forEach((block, i) => {
@@ -456,10 +561,6 @@
                 if (anchors[1]) anchors[1].textContent = locale.footerCol2[1].split(' · ')[1];
             }
             if (col2Items[2]) col2Items[2].textContent = locale.footerCol2[2];
-            if (col2Items[3]) {
-                const link = col2Items[3].querySelector('a');
-                if (link) link.textContent = locale.footerCol2[3];
-            }
         }
         if (footerBoxes[2]) {
             const col3Items = footerBoxes[2].querySelectorAll('li');
@@ -469,6 +570,12 @@
                 const link = col3Items[2].querySelector('a');
                 if (link) link.textContent = locale.footerCol3[2];
             }
+        }
+        if (footerBoxes[3]) {
+            const col4Items = footerBoxes[3].querySelectorAll('.social-link__label');
+            if (col4Items[0]) col4Items[0].textContent = locale.footerCol4[0];
+            if (col4Items[1]) col4Items[1].textContent = locale.footerCol4[1];
+            if (col4Items[2]) col4Items[2].textContent = locale.footerCol4[2];
         }
 
     }
@@ -631,6 +738,23 @@
     }
 
     /** YouTube: no descarga el iframe hasta que el bloque entra en vista (ahorra red y JS del reproductor). */
+    /** Abre el acordeón correcto con #condiciones-vertical o #condiciones-horizontal */
+    function initCondicionesHashLink() {
+        function openFromHash() {
+            const id = location.hash === '#condiciones-vertical' ? 'condiciones-vertical' : location.hash === '#condiciones-horizontal' ? 'condiciones-horizontal' : null;
+            if (!id) return;
+            const d = document.getElementById(id);
+            if (d && d.tagName === 'DETAILS') {
+                d.open = true;
+                requestAnimationFrame(() => {
+                    d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            }
+        }
+        openFromHash();
+        window.addEventListener('hashchange', openFromHash);
+    }
+
     function initDeferredYouTubeEmbeds() {
         const selector = '.embed-yt-deferred';
 
@@ -645,19 +769,23 @@
             const id = el.getAttribute('data-youtube-id');
             if (!id) return;
             const title = el.getAttribute('data-youtube-title') || 'YouTube';
-            const params = el.getAttribute('data-youtube-params') || 'autoplay=0&rel=0';
+            const params =
+                el.getAttribute('data-youtube-params') || 'autoplay=0&rel=0&playsinline=1&modestbranding=1';
             const iframe = document.createElement('iframe');
+            /* No usar loading="lazy" en iframes inyectados: en Chromium a veces no llega a cargar el embed. */
             iframe.src = buildSrc(id, params);
             iframe.title = title;
-            iframe.loading = 'lazy';
+            iframe.loading = 'eager';
             iframe.referrerPolicy = 'strict-origin-when-cross-origin';
             iframe.setAttribute(
                 'allow',
-                'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
             );
             iframe.setAttribute('allowfullscreen', '');
             el.appendChild(iframe);
-            el.querySelectorAll('.embed-yt-deferred__thumb, .embed-yt-deferred__play').forEach((n) => n.remove());
+            el.querySelectorAll('.embed-yt-deferred__watch, .embed-yt-deferred__thumb, .embed-yt-deferred__play').forEach((n) =>
+                n.remove()
+            );
             el.removeAttribute('role');
             el.removeAttribute('tabindex');
             el.removeAttribute('aria-label');
@@ -749,6 +877,46 @@
         });
     }
 
+    function initDiscordTemplateCopy() {
+        const btn = document.getElementById('discord-copy-msg-btn');
+        const pre = document.getElementById('discord-ejemplo-msg');
+        const feedback = document.getElementById('discord-copy-msg-feedback');
+        if (!btn || !pre) return;
+
+        let resetTimer = null;
+
+        function showFeedback(msg) {
+            if (feedback) feedback.textContent = msg;
+            if (resetTimer) window.clearTimeout(resetTimer);
+            resetTimer = window.setTimeout(() => {
+                if (feedback) feedback.textContent = '';
+                resetTimer = null;
+            }, 3500);
+        }
+
+        btn.addEventListener('click', async () => {
+            const locale = I18N[currentLang];
+            const text = (pre.textContent || '').trim();
+            if (!text) return;
+            try {
+                await navigator.clipboard.writeText(text);
+                showFeedback(locale.copyMsgFeedback.success);
+            } catch {
+                try {
+                    pre.focus();
+                    const range = document.createRange();
+                    range.selectNodeContents(pre);
+                    const sel = window.getSelection();
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                    showFeedback(locale.copyMsgFeedback.fallback);
+                } catch {
+                    showFeedback(locale.copyMsgFeedback.manual);
+                }
+            }
+        });
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
         applyLanguage(getPreferredLanguage());
         setMobileMenuExpanded(false);
@@ -757,6 +925,8 @@
         initChannelMarquees();
         initDeferredYouTubeEmbeds();
         initDiscordCopy();
+        initDiscordTemplateCopy();
+        initCondicionesHashLink();
 
         if (langToggle) {
             langToggle.addEventListener('click', () => {
